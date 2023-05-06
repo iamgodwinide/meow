@@ -20,7 +20,7 @@ function Header() {
         <nav className='desktop-header'>
             <a href='/' className='brand'>
                 <img src='/logo.png'/>
-                Meow
+                Shitcoin Central
             </a>
 
             <ul>
@@ -41,7 +41,7 @@ function Header() {
         <nav className='mobile-header'>
             <a href="#" className="brand-logo">
                 <img src="/logo.png" alt="" />
-                meow
+                Shitcoin Central
             </a>
 
             <i onClick={handleOpen} class="fa fa-bars fa-2x" aria-hidden="true"></i>

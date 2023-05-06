@@ -9,7 +9,7 @@ function App() {
       <main className='home' id='home'>
         <div className='two-section'>
           <div className='intro'>
-            <h1>meow</h1>
+            <h1>Shitcoin Central</h1>
             <img src="/IMG_1336.jpg" alt="" />
             <div className='social-links'>
               <a href='https://twitter.com/ShitCoinC3ntral'>
@@ -70,11 +70,11 @@ function App() {
       <section id='contact' className='contact'>
         <h1>Contact</h1>
 
-        <h4>Meow
+        <h4>Shitcoin Central
           <img src="/cat.png" alt="" />
         </h4>
 
-        <p>email: cat@meow.xyz</p>
+        <p>email: cat@Shitcoin Central.xyz</p>
 
         <div className="links">
           <a href='https://twitter.com/ShitCoinC3ntral'>
@@ -90,7 +90,7 @@ function App() {
       </section>
 
       <footer>
-        © 2023 by meow. all rights reserved!
+        © 2023 by Shitcoin Central. all rights reserved!
       </footer>
 
     </div>
