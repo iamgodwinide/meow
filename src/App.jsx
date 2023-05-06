@@ -71,10 +71,8 @@ function App() {
         <h1>Contact</h1>
 
         <h4>Shitcoin Central
-          <img src="/cat.png" alt="" />
         </h4>
 
-        <p>email: cat@Shitcoin Central.xyz</p>
 
         <div className="links">
           <a href='https://twitter.com/ShitCoinC3ntral'>
