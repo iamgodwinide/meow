@@ -19,35 +19,28 @@ function Header() {
         {/* desktop navigator start */}
         <nav className='desktop-header'>
             <a href='/' className='brand'>
-                <img src='/cat.png'/>
+                <img src='/logo.png'/>
                 Meow
             </a>
 
             <ul>
                 <li>
-                    <a href='#'>Home</a>
+                    <a href='#home'>Home</a>
                 </li>
                 <li>
-                    <a href='#'>About</a>
+                    <a href='#about'>About</a>
                 </li>
                 <li>
-                    <a href='#'>How To Buy</a>
-                </li>
-                <li>
-                    <a href='#'>Tokenomics</a>
-                </li>
-                <li>
-                    <a href='#'>Roadmap</a>
+                    <a href='#tokenomics'>Tokenomics</a>
                 </li>
             </ul>
-            <a href='#' className='buy-button'>Buy Now</a>
         </nav>
         {/* desktop navigator end */}
 
         {/* mobile navigator  */}
         <nav className='mobile-header'>
             <a href="#" className="brand-logo">
-                <img src="/cat.png" alt="" />
+                <img src="/logo.png" alt="" />
                 meow
             </a>
 
@@ -58,19 +51,13 @@ function Header() {
             <i onClick={handleClose} class="fa fa-times fa-2x" aria-hidden="true"></i>
             <ul>
                 <li>
-                    <a href='#'>Home</a>
+                    <a href='#home'>Home</a>
                 </li>
                 <li>
-                    <a href='#'>About</a>
+                    <a href='#about'>About</a>
                 </li>
                 <li>
-                    <a href='#'>How To Buy</a>
-                </li>
-                <li>
-                    <a href='#'>Tokenomics</a>
-                </li>
-                <li>
-                    <a href='#'>Roadmap</a>
+                    <a href='#tokenomics'>Tokenomics</a>
                 </li>
             </ul>
         </div>
