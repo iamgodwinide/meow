@@ -34,6 +34,29 @@ function Header() {
                     <a href='#tokenomics'>Tokenomics</a>
                 </li>
             </ul>
+
+            <ul>
+                <li>
+                    <a href='https://twitter.com/ShitCoinC3ntral'>
+                        <img src="/twitter.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://discord.gg/shitcoincentral'>
+                        <img src="/twttttee234.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://www.dextools.io/app/en/ether/pair-explorer/0xe975061bd5c279f1cba6aae50ca45e48e16585b5'>
+                        <img src="/dextools.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://etherscan.io/token/0x5d9175CF9ddDee49456402E9cae8Cf2C049E1bf9'>
+                        <img src="/etherscan.png"/>
+                    </a>
+                </li>
+            </ul>
         </nav>
         {/* desktop navigator end */}
 
@@ -58,6 +81,21 @@ function Header() {
                 </li>
                 <li>
                     <a href='#tokenomics'>Tokenomics</a>
+                </li>
+                <li>
+                    <a href='https://discord.gg/shitcoincentral'>
+                        <img src="/twttttee234.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://www.dextools.io/app/en/ether/pair-explorer/0xe975061bd5c279f1cba6aae50ca45e48e16585b5'>
+                        <img src="/dextools.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href='https://etherscan.io/token/0x5d9175CF9ddDee49456402E9cae8Cf2C049E1bf9'>
+                        <img src="/etherscan.png"/>
+                    </a>
                 </li>
             </ul>
         </div>

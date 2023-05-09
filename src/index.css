@@ -24,11 +24,6 @@ body{
   display: none;
 }
 
-section{
-  margin: 0 10em;
-  padding: 0 1em;
-}
-
 
 h1,h2,h3,p{
   color: #fff;
@@ -37,9 +32,6 @@ h1,h2,h3,p{
 main{
   display: flex;
   flex-direction: column;
-  margin-top: 5em;
-  margin: 7em 10em;
-  padding: 1em;
 }
 
 main .two-section{
@@ -47,40 +39,9 @@ main .two-section{
   justify-content: center;
 }
 
-main .two-section .intro{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-  text-align: center;
-}
-
-main .two-section .intro h1{
-  font-size: 3.2em;
-  color: #fff;
-  width: 100%;
-}
-
-main .two-section .intro p{
-  font-size: 1.3em;
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-}
-
-main .two-section .social-links{
-  margin-top: 1em;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-main .two-section .social-links img{
-  width: 4em;
-  margin-right: 1.5em;
-}
 
 main .two-section img{
-  width: 24em;
+  width: 100%;
 }
 
 .store-links{
@@ -104,18 +65,14 @@ main .two-section img{
   margin-left: 1em;
 }
 
-.about{
-  margin: 0 10em;
-  display: flex;
-  justify-content: space-between;
-}
-
 .about .wrap{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  text-align: right;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about h1{
@@ -129,57 +86,25 @@ main .two-section img{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   color: #fff;
-  text-align: right;
+  text-align: center;
 }
 
 .about img{
-  width: 300px;
-  margin-right: 2em;
+  display: block;
+  width: 98vw;
+  margin: 0 auto;
 }
 
-.howto{
-  margin-top: 5em;
-}
-
-.howto h1{
-  font-size: 4em;
-  text-align: center;
-  margin: 2em 0;
-}
-
-.howto .item{
-  border: 2px solid #fff;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1em;
-  background-color: #264A20;
-}
-
-.howto .item img{
-  width: 150px;
-  margin-right: 1em;
-}
 
 .token h1{
   font-size: 4.2em;
   text-align: center;
+  margin: 0;
 }
 
-.token .two-section{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.token .two-section .first{
-  width: 70%;
-}
 
 .token .two-section img{
-  width: 12em;
+  width: 98vw;
 }
 
 .token h2{
@@ -188,11 +113,11 @@ main .two-section img{
 }
 
 .writeup{
-  background-color: #264A20;
   padding: 1.5em;
   border: 2px solid #fff;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
+  margin-bottom: 1em;
 }
 
 .contact{
@@ -202,9 +127,14 @@ main .two-section img{
   align-items: center;
 }
 
+.contact .meme{
+  width: 98vw;
+}
+
 .contact h1{
   font-size: 4.2em;
   text-align: center;
+  margin: 0;
 }
 
 .contact h4 {
@@ -213,6 +143,7 @@ main .two-section img{
   align-items: center;
   color: #fff;
   text-align: center;
+  margin: 0;
 }
 
 .contact h4 img{
@@ -227,6 +158,7 @@ main .two-section img{
 .contact .links{
   display: flex;
   align-items: center;
+  margin-top: .5em;
 }
 
 .contact .links a{
@@ -244,7 +176,7 @@ main .two-section img{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3A963D;
+  background-color: #000;
   z-index: 100;
 }
 
@@ -278,7 +210,7 @@ main .two-section img{
 footer{
   text-align: center;
   padding: .5em;
-  background-color: #3A963D;
+  background-color: #000;
   color: #fff;
   box-shadow: -1px -1px 2px #000;
 }
@@ -295,7 +227,6 @@ hr{
     flex-direction: column;
   }
 
-
   section,main{
     margin: 0;
   }
@@ -309,22 +240,8 @@ hr{
     text-align: center;
   }
 
-  main .two-section .social-links{
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  main .two-section .social-links a{
-    margin-bottom: 1em;
-  } 
-
-  main .two-section .social-links img{
-    width: 6em;
-  }
-  
-  main .two-section .img-wrap{
-    display: none;
+  main .two-section img{
+    width: 100%;
   }
 
   .store-links {
@@ -347,7 +264,7 @@ hr{
 
   .about{
     flex-direction: column;
-    margin: 0;
+    margin: 0; 
   }
 
   .about img{
@@ -407,8 +324,8 @@ hr{
     font-size: 3em;
   }
 
-  main .two-section img{
-    width: 18em;
+  .contact .meme{
+    display: block;
     margin: 0 auto;
   }
   
