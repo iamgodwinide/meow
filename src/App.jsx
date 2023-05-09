@@ -21,7 +21,9 @@ function App() {
           Shitcoin Central is the home of shitcoin degens on their way to glory with constant alpha calls, laughs, and wins. The coin for true degens, by true degens.
           <br />
           <br />
-          TOKEN ADDRESS: 0x5d9175CF9ddDee49456402E9cae8Cf2C049E1bf9
+          TOKEN ADDRESS
+          <br />
+          <small>0x5d9175CF9ddDee49456402E9cae8Cf2C049E1bf9</small>
           </p>
         </div>
         <img className='a-img' src='/IMG_1086.png'/>

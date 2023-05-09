@@ -66,10 +66,6 @@ main .two-section img{
 }
 
 .about .wrap{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -268,34 +264,18 @@ hr{
   }
 
   .about img{
-    width: 150px;
+    width: 98vw;
     margin: 0 auto;
   }
 
   .about h1{
+    font-size: 3em;
     text-align: center;
     width: 100%;
   }
   
   .about p{
     text-align: center;
-  }
-
-  .howto h1{
-    font-size: 3em;
-  }
-
-  .howto .item{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .howto .item div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .token h1{
